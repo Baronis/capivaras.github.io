@@ -27,13 +27,9 @@
           </header>
           <nav id="top-navigation">
             <ul>
-              {% for link in site.navigation %}
-                {% assign current = nil %}
-                {% if page.url == link.url or page.group == link.group %}
-                  {% assign current = 'active' %}
-                {% endif %}
-                <li><a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a></li>
-              {% endfor %}
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="https://rawr.readthedocs.org/">Docs</a></li>
+              <li><a href="/getting-started/index.html">Getting Started</a></li>  
             </ul>
           </nav>
           
@@ -43,7 +39,6 @@
         <a href="http://github.com/haskellcamargo/rawr" class="fork-ribbon" target="_blank">Fork on Github</a>
       </div>
     </div>
-
 
     <div id="content">
       <div id="hero-description" class="narrow">
@@ -65,7 +60,11 @@
     </div>
 
     <div id="footer">
-      Made with <span class="heart">♥</span> by <a href="http://robotlolita.github.io">Quildreen Motta</a>.
+      Made with <span class="heart">♥</span>
+      by <a href="https://github.com/haskellcamargo">Marcelo Camargo</a>.<br />
+      Theme by <a href="https://robotlolita.me">Quildreen Motta</a>
+      <br><br>
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
     </div>
   </body>
 </html>
