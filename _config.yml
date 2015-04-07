@@ -1,8 +1,8 @@
-name: Folktale
+name: Rawr
 pygments: true
 
 navigation:
-  - text: Overview
+  - text: Home
     url: /index.html
     group: home
   - text: Documentation
