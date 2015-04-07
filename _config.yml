@@ -6,8 +6,8 @@ navigation:
     url: /index.html
     group: home
   - text: Documentation
-    url: http://docs.folktalejs.org
+    url: http://rawr.readthedocs.org
     group: docs
-  - text: Community
+  - text: Getting Started
     url: /community/index.html
     group: community
