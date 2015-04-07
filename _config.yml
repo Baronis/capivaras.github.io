@@ -11,6 +11,3 @@ navigation:
   - text: Getting Started
     url: /community/index.html
     group: community
-  - text: Download
-    url: /download/index.html
-    group: download
