@@ -5,7 +5,7 @@ navigation:
   - text: Home
     url: /index.html
     group: home
-  - text: Documentation
+  - text: Docs
     url: http://rawr.readthedocs.org
     group: docs
   - text: Getting Started
