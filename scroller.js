@@ -28,13 +28,21 @@ window.fadeIn = function() {
 }
 
 window.fade = function(ini, fin) {
-  var alpha = ini, inc = fin >= ini ? 2 : -2;
-  var timer = setInterval(function() {
-    if ((inc > 0 && alpha >= fin) || (inc < 0 && alpha <= fin)) {
-      clearInterval(timer);
-    }
+  var alpha = ini;
+  var inc;
+  if (fin >= ini) { 
+    inc = 2; 
+  } else {
+    inc = -2;
+  }
+  timer = (0.2 * 1000) / 50;
+  var i = setInterval(
+    function() {
+      if ((inc > 0 && alpha >= fin) || (inc < 0 && alpha <= fin)) {
+        clearInterval(i);
+      }
     window.fixedHeader.style.filter = "alpha(opacity="+ alpha +")";
     window.fixedHeader.style.opacity = alpha/100;
     alpha += inc;
-  }, 40);
+  }, timer);
 }
