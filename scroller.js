@@ -7,12 +7,14 @@
       // Show fixed bar
       if (!fixedVisible) {
         window.fixedHeader.style.display = "block";
+        window.fixedHeader.style.opacity = 1;
         window.fixedVisible = true;
       }
     } else {
       // Hide fixed bar
       if (fixedVisible) {
         window.fixedHeader.style.display = "none";
+        window.fixedHeader.style.opacity = 0;
         window.fixedVisible = false;
       }
     }
