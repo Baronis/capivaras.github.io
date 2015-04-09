@@ -5,11 +5,13 @@
       // Show fixed bar
       if (!fixedVisible) {
         console.log("Show");
+        fixedVisible = true;
       }
     } else {
       // Hide fixed bar
       if (fixedVisible) {
         console.log("Hide");
+        fixedVisible = false;
       }
     }
   };
