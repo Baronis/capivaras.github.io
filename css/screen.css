@@ -134,12 +134,11 @@ body {
   height: 60px;
   padding-bottom: 10px;
   padding-top: 10px;
-  overflow: hidden;
   z-index: 10;
   width: 100%;
 }
 
-#header #header-row {
+#header #header-row, #fixed_header .header-row {
   display: block;
   width: 102.08333333333333%;
   margin: 0 -1.0416666666666665%;
