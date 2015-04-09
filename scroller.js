@@ -35,7 +35,6 @@ window.fade = function(ini, fin) {
   } else {
     inc = -2;
   }
-  timer = (0.2 * 1000) / 50;
   var i = setInterval(
     function() {
       if ((inc > 0 && alpha >= fin) || (inc < 0 && alpha <= fin)) {
@@ -43,7 +42,7 @@ window.fade = function(ini, fin) {
       }
     window.setAlpha(window.fixedHeader, alpha);
     alpha += inc;
-  }, timer);
+  }, 1);
 }
 
 window.setAlpha(target, alpha) {
