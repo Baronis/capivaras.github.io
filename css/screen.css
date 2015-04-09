@@ -214,13 +214,6 @@ body {
   font-size: 72px;
   line-height: 100%;
 }
-.logo h1 a {
-  font-weight: 100;
-  color: #FFF;
-  font-size: 62px;
-  line-height: 100%;
-  text-decoration: none;
-}
 #logo em a {
   text-transform: uppercase;
   color: #ccc;
@@ -640,4 +633,11 @@ code {
 .top-navigation a.active {
   color: #aaa;
   border-bottom-color: #EA4C88;
+}
+.logo h1 a {
+  font-weight: 100;
+  color: #FFF;
+  font-size: 62px;
+  line-height: 100%;
+  text-decoration: none;
 }
