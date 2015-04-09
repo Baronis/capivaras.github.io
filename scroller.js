@@ -29,7 +29,6 @@ window.fadeIn = function() {
 }
 
 window.fade = function(ini, fin) {
-  var target = document.getElementById(id);
   var alpha = ini;
   var inc;
   if (fin >= ini) { 
@@ -49,6 +48,6 @@ window.fade = function(ini, fin) {
 }
 
 function setAlpha(target, alpha) {
-    target.style.filter = "alpha(opacity="+ alpha +")";
-    target.style.opacity = alpha/100;
+    window.fixedHeader.style.filter = "alpha(opacity="+ alpha +")";
+    window.fixedHeader.style.opacity = alpha/100;
 }
