@@ -203,6 +203,12 @@ body {
   font-size: 72px;
   line-height: 100%;
 }
+.logo h1 a {
+  font-weight: 100;
+  color: #FFF;
+  font-size: 62px;
+  line-height: 100%;
+}
 #logo em a {
   text-transform: uppercase;
   color: #ccc;
