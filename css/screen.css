@@ -623,7 +623,7 @@ code {
   font-size: 20px;
   padding: 5px 10px;
   border-bottom: 5px solid transparent;
-  text-indent: uppercase;
+  text-transform: uppercase;
   letter-spacing: 1px;
 }
 .top-navigation a:hover {
