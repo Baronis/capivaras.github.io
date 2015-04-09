@@ -3,14 +3,14 @@
   window.fixedHeader = document.getElementById("fixed_header");
   // Fade functions
   window.fadeOut = function(time) {
-    window.fade(100, 0);
+    window.fade(100, 0, time);
   }
 
   window.fadeIn = function(time) {
-    window.fade(0, 100);
+    window.fade(0, 100, time);
   }
 
-  window.fade = function(ini, fin) {
+  window.fade = function(ini, fin, time) {
     var alpha = ini, inc = fin >= ini ? 2 : -2;
     var i = setInterval(function() {
       if ((inc > 0 && alpha >= fin) || (inc < 0 && alpha <= fin)) {
