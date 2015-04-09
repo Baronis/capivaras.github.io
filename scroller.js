@@ -2,11 +2,11 @@
   window.fixedVisible = false;
   window.fixedHeader = document.getElementById("fixed_header");
   // Fade functions
-  window.fadeOut = function() {
+  window.fadeOut = function(time = 1) {
     window.fade(100, 0);
   }
 
-  window.fadeIn = function() {
+  window.fadeIn = function(time = 1) {
     window.fade(0, 100);
   }
 
@@ -19,9 +19,9 @@
       window.fixedHeader.style.filter = "alpha(opacity=" + alpha + ")";
       window.fixedHeader.style.opacity = alpha / 100;
       alpha += inc;
-    }, 1);
+    }, time);
   };
-  window.fadeOut();
+  window.fadeOut(0);
   window.fixedHeader.style.webkitTransitionDuration = "0.5s";
   document.body.onscroll = function(e) {
     if (window.scrollY >= 160) {
