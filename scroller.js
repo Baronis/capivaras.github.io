@@ -12,7 +12,7 @@
     } else {
       // Hide fixed bar
       if (fixedVisible) {
-        console.log("Hide");
+        window.fixedHeader.style.display = "none";
         window.fixedVisible = false;
       }
     }
