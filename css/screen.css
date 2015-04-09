@@ -141,7 +141,7 @@ body {
 }
 
 #header {
-  z-index: 5;
+  z-index: 50;
 }
 
 #header #header-row, #fixed_header .header-row {
