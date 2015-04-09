@@ -45,7 +45,7 @@ window.fade = function(ini, fin) {
   }, 1);
 }
 
-window.setAlpha(target, alpha) {
+window.setAlpha = function(target, alpha) {
   target.style.filter = "alpha(opacity=" + alpha + ")";
   target.style.opacity = alpha / 100;
 }
