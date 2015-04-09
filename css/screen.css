@@ -125,6 +125,19 @@ body {
   overflow: hidden;
   width: 100%;
 }
+
+#fixed_header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  height: 60px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  overflow: hidden;
+  width: 100%;
+}
+
 #header #header-row {
   display: block;
   width: 102.08333333333333%;
