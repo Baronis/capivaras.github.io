@@ -90,7 +90,7 @@ a img {
   border: none;
 }
 .constrained,
-#header #header-container,
+#header #header-container, #fixed_header
 #content #content-wrapper {
   width: 960px;
   margin: 0 auto;
@@ -567,4 +567,22 @@ code {
 }
 .document .description-summary:after {
   clear: both;
+}
+.btn {
+  margin-top: 30px;
+  padding: 10px 20px 10px 20px;
+  font-family: Lato;
+  font-size: 30px;
+  text-transform: uppercase;
+  border: 0;
+  color: white;
+  background-color: #EA4C88;
+  margin-right: 4px;
+  outline: none;
+}
+.btn:hover {
+  background-color: #FA5C98;
+}
+.btn:active {
+  background-color: #DA3C78;
 }
