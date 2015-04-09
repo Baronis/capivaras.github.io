@@ -162,6 +162,10 @@ body {
   *width: 64.53125000000001%;
   *margin: 0 0.9895833333333331%;
 }
+#fixed_header .top-navigation {
+  width: 58%;
+  *width: 58%;
+}
 #header .ribbon-container {
   position: absolute;
   top: 0;
