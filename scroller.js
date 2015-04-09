@@ -41,8 +41,12 @@ window.fade = function(ini, fin) {
       if ((inc > 0 && alpha >= fin) || (inc < 0 && alpha <= fin)) {
         clearInterval(i);
       }
-    window.fixedHeader.style.filter = "alpha(opacity="+ alpha +")";
-    window.fixedHeader.style.opacity = alpha/100;
+    window.setAlpha(window.fixedHeader, alpha);
     alpha += inc;
   }, timer);
+}
+
+window.setAlpha(target, alpha) {
+  target.style.filter = "alpha(opacity=" + alpha + ")";
+  target.style.opacity = alpha / 100;
 }
