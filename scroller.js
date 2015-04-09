@@ -8,7 +8,7 @@
       if (!fixedVisible) {
         window.fixedHeader.style.opacity = 1;
         window.setTimeout(function(e) {
-          window.fixedHeader.style.display = "block";
+          window.fixedHeader.style.visibility = "visible";
         }, 500);
         window.fixedVisible = true;
       }
@@ -18,7 +18,7 @@
         
         window.fixedHeader.style.opacity = 0;
         window.setTimeout(function(e) {
-          window.fixedHeader.style.display = "none";
+          window.fixedHeader.style.visibility = "hidden";
         }, 500);
         window.fixedVisible = false;
       }
