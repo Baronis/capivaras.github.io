@@ -625,6 +625,7 @@ code {
   border-bottom: 5px solid transparent;
   text-transform: uppercase;
   letter-spacing: 1px;
+  text-decoration: none;
 }
 .top-navigation a:hover {
   color: #aaa;
