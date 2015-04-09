@@ -220,6 +220,10 @@ body {
   padding-top: 55px;
   text-align: right;
 }
+.top-navigation {
+  padding-top: 10px;
+  text-align: right;
+}
 #top-navigation li {
   display: inline-block;
   margin: 0 20px;
