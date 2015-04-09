@@ -9,5 +9,5 @@ navigation:
     url: http://rawr.readthedocs.org
     group: docs
   - text: Getting Started
-    url: /getting-started/index.html
+    url: /getting-started/404.html
     group: community
