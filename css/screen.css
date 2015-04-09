@@ -114,9 +114,9 @@ body {
   font-size: 18px;
   font-family: Lato, sans;
   background: #e7e7e7;
-  color: #0287D0;
+  color: #7E349D;
   line-height: 130%;
-  border-top: 10px solid #0077C0;
+  border-top: 10px solid #6E248D;
 }
 #header {
   background: #f3f3f3;
@@ -221,7 +221,7 @@ body {
   border-bottom-color: #1bb3ff;
 }
 #hero-description {
-  background: #0287D0;
+  background: #7E349D;
   color: #eee;
   text-align: center;
   padding: 30px 0 30px;
@@ -464,7 +464,7 @@ code {
   margin: 0;
 }
 .document .highlight pre code {
-  color: #0287D0;
+  color: #7E349D;
 }
 .document ol {
   list-style: decimal;
