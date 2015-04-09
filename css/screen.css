@@ -131,7 +131,7 @@ body {
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.8);
-  height: 60px;
+  height: 70px;
   padding-bottom: 10px;
   padding-top: 10px;
   z-index: 10;
@@ -148,6 +148,7 @@ body {
 #header #logo, #fixed_header .logo {
   display: inline;
   float: left;
+  padding-left: 30px;
   width: 31.25%;
   margin: 0 1.0416666666666665%;
   *width: 31.197916666666668%;
