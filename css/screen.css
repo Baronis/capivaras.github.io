@@ -218,7 +218,7 @@ body {
 }
 #top-navigation a.active {
   color: #aaa;
-  border-bottom-color: #1bb3ff;
+  border-bottom-color: #EA4C88;
 }
 #hero-description {
   background: #7E349D;
@@ -317,7 +317,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #1bb3ff;
+  color: #EA4C88;
   text-decoration: underline;
 }
 a:visited {
@@ -531,7 +531,7 @@ code {
 }
 .document pre code.oblige {
   display: block;
-  color: #1bb3ff;
+  color: #EA4C88;
   position: relative;
 }
 .document pre code.oblige:before {
