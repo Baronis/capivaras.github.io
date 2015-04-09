@@ -119,7 +119,7 @@ body {
   border-top: 10px solid #6E248D;
 }
 #header {
-  background: #f3f3f3;
+  background: #333;
   height: 100px;
   padding-top: 30px;
   overflow: hidden;
@@ -174,7 +174,7 @@ body {
 }
 #content {
   background: #f3f3f3;
-  padding: 3em 0;
+  padding: 0 0 3em 0;
 }
 #footer {
   padding: 50px 0;
