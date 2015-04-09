@@ -10,7 +10,7 @@
     window.fade(0, 100);
   }
 
-  (window.fade = function(ini, fin) {
+  window.fade = function(ini, fin) {
     var alpha = ini, inc = fin >= ini ? 2 : -2;
     var i = setInterval(function() {
       if ((inc > 0 && alpha >= fin) || (inc < 0 && alpha <= fin)) {
@@ -20,7 +20,8 @@
       window.fixedHeader.style.opacity = alpha / 100;
       alpha += inc;
     }, 1);
-  })();
+  };
+  window.fadeOut();
   window.fixedHeader.style.webkitTransitionDuration = "0.5s";
   document.body.onscroll = function(e) {
     if (window.scrollY >= 160) {
