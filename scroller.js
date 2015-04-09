@@ -28,7 +28,7 @@ window.fadeIn = function() {
   window.fade(0, 100);
 }
 
-window.fade(ini, fin) {
+window.fade = function(ini, fin) {
   var target = document.getElementById(id);
   var alpha = ini;
   var inc;
