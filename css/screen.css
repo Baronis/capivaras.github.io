@@ -314,15 +314,15 @@ body {
   margin-top: 2em;
 }
 a {
-  color: #0772a1;
+  color: #EA4C88;
   text-decoration: none;
 }
 a:hover {
-  color: #EA4C88;
+  color: #FF6CA8;
   text-decoration: underline;
 }
 a:visited {
-  color: #154961;
+  color: #DA3C78;
 }
 code {
   font-family: monospace;
