@@ -1,6 +1,7 @@
 (function() {
   window.fixedVisible = false;
   window.fixedHeader = document.getElementById("fixed_header");
+  window.fadeOut();
   window.fixedHeader.style.webkitTransitionDuration = "0.5s";
   document.body.onscroll = function(e) {
     if (window.scrollY >= 160) {
