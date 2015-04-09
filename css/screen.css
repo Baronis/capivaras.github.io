@@ -226,7 +226,7 @@ body {
   text-align: right;
 }
 .top-navigation {
-  padding-top: 10px;
+  line-height: 70px;
   text-align: right;
 }
 #top-navigation li {
