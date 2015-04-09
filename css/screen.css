@@ -145,7 +145,7 @@ body {
   *width: 102.03125%;
   *margin: 0 -1.0937499999999998%;
 }
-#header #logo {
+#header #logo, #fixed_header .logo {
   display: inline;
   float: left;
   width: 31.25%;
@@ -153,7 +153,7 @@ body {
   *width: 31.197916666666668%;
   *margin: 0 0.9895833333333331%;
 }
-#header #top-navigation {
+#header #top-navigation, #fixed_header .top-navigation {
   display: inline;
   float: left;
   width: 64.58333333333334%;
