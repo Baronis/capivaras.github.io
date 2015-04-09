@@ -136,8 +136,12 @@ body {
   height: 70px;
   padding-bottom: 10px;
   padding-top: 10px;
-  z-index: -2;
+  z-index: 0;
   width: 100%;
+}
+
+#header {
+  z-index: 5;
 }
 
 #header #header-row, #fixed_header .header-row {

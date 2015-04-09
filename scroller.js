@@ -18,7 +18,7 @@
       }
       window.fixedHeader.style.filter = "alpha(opacity=" + alpha + ")";
       window.fixedHeader.style.opacity = alpha / 100;
-      window.fixedHeader.style.zIndex = inc;
+      window.fixedHeader.style.zIndex = ini > fin ? 10 : 0;
       alpha += inc;
     }, 1);
   };
