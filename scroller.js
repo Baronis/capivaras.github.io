@@ -2,11 +2,11 @@
   window.fixedVisible = false;
   window.fixedHeader = document.getElementById("fixed_header");
   // Fade functions
-  window.fadeOut = function(time = 1) {
+  window.fadeOut = function(time) {
     window.fade(100, 0);
   }
 
-  window.fadeIn = function(time = 1) {
+  window.fadeIn = function(time) {
     window.fade(0, 100);
   }
 
@@ -19,7 +19,7 @@
       window.fixedHeader.style.filter = "alpha(opacity=" + alpha + ")";
       window.fixedHeader.style.opacity = alpha / 100;
       alpha += inc;
-    }, time);
+    }, time ? time : 1);
   };
   window.fadeOut(0);
   window.fixedHeader.style.webkitTransitionDuration = "0.5s";
