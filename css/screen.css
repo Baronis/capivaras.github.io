@@ -129,6 +129,7 @@ body {
 #fixed_header {
   position: fixed;
   filter: alpha(opacity=0);
+  opacity: 0;
   top: 0;
   left: 0;
   background: rgba(51, 51, 51, 0.8);
