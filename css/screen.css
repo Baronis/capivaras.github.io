@@ -626,3 +626,10 @@ code {
   text-indent: uppercase;
   letter-spacing: 1px;
 }
+.top-navigation a:hover {
+  color: #aaa;
+}
+.top-navigation a.active {
+  color: #aaa;
+  border-bottom-color: #EA4C88;
+}
