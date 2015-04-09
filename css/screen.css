@@ -158,9 +158,9 @@ body {
 #header #top-navigation, #fixed_header .top-navigation {
   display: inline;
   float: left;
-  width: 64.58333333333334%;
+  width: 55.58333333333334%;
   margin: 0 1.0416666666666665%;
-  *width: 64.53125000000001%;
+  *width: 55.53125000000001%;
   *margin: 0 0.9895833333333331%;
 }
 #fixed_header .top-navigation {
