@@ -1,7 +1,7 @@
 (function() {
   window.fixedVisible = false;
-  window.header = document.getElementById("header");
   window.fixedHeader = document.getElementById("fixed_header");
+  window.fixedHeader.style.webkitTransitionDuration = "0.5s";
   document.body.onscroll = function(e) {
     if (window.scrollY >= 160) {
       // Show fixed bar

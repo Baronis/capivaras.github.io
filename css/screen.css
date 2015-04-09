@@ -129,11 +129,6 @@ body {
 #fixed_header {
   position: fixed;
   opacity: 0;
-  -webkit-transition-duration: 0.5s;
-  -moz-transition-duration: 0.5s;
-  -ms-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  transition-duration: 0.5s;
   display: none;
   top: 0;
   left: 0;
