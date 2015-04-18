@@ -103,10 +103,17 @@ proglang:
     descr: "A language that runs on Zebra Printers (WTF!?)"
 
 languages:
-  - Portuguese
-  - English
-  - Spanish
-  - French
-  - Turkish
-  - Mandarin
-  - Esperanto
+  - language: "Portuguese"
+    descr: "Because it's my mother language, d'oh!"
+  - language: "English"
+    descr: "Who in the world doesn't know it?"
+  - language: "Spanish"
+    descr: "It has been useful sometimes."
+  - language: "French"
+    descr: "One of the best languages I ever learnt!"
+  - language: "Mandarin"
+    descr: "Yeah, it makes sense, taking account it's known by 1/6 of the world."
+  - language: "Turkish"
+    descr: "Why? Because turkish grammar is love!"
+  - language: "Esperanto"
+    descr: "Cause I'm too dumb to learn latin."
