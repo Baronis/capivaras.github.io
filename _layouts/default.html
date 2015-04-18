@@ -42,27 +42,6 @@
         <a href="https://github.com/haskellcamargo/" class="fork-ribbon" target="_blank">Find on Github</a>
       </div>
     </div>
-
-    <div id="fixed_header">
-      <div class="header-row">
-          <header class="logo">
-            <h1><a href="/">Rawr</a></h1>
-          </header>
-          <nav class="top-navigation">
-            <ul>
-              {% for link in site.navigation %}
-                {% assign current = nil %}
-                {% if page.url == link.url or page.group == link.group %}
-                  {% assign current = 'active' %}
-                {% endif %}
-                <li><a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a></li>
-              {% endfor %}
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </div>
-
     <div id="content">
       {{ content }}
     </div>
