@@ -640,4 +640,8 @@ code {
   font-size: 62px;
   line-height: 100%;
   text-decoration: none;
+
+
+.ugly {
+  border-radius: 200px;
 }
