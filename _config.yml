@@ -28,7 +28,7 @@ proglang:
   - language: Haskell
     descr: A pure functional programming language.
   - language: Java
-    descr: "No, I'm not proud of this".
+    descr: "No, I'm not proud of this"
   - language: Livescript
     descr: An hybrid functional language that compiles to Javascript.
 
