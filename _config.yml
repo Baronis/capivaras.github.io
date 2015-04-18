@@ -22,6 +22,10 @@ favorite:
   - language: Erlang
     descr: Built to build concurrent webservers.
 
+proglang:
+  - language: Java
+  - descr: No, I\'m not proud of this.
+
 languages:
   - Portuguese
   - English

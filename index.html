@@ -13,7 +13,7 @@ title:  Haskell Camargo
 
 <div id="content-wrapper">
   <div class="highlight-section section">
-    <h2 class="title"><span>My Favorite Programming Languages</span></h2>
+    <h2 class="title"><span>My favorite programming languages</span></h2>
     <div class="overview-boxes-container">
       <ul class="overview-boxes">
         {% for lang in site.favorite %}
@@ -26,22 +26,16 @@ title:  Haskell Camargo
     </div>
   </div>
   <div class="highlight-section section">
-  <h2 class="title"><span>Features</span></h2>
-    <div align="center">
-        <ul>
-            <li>Function composition</li>
-            <li>Monads</li>
-            <li>Static type system</li>
-            <li>Purism in OO</li>
-            <li>Prototype-based programming</li>
-            <li>First class data types</li>
-            <li>Piping</li>
-            <li>Method chaining</li>
-            <li>Pattern matching</li>
-            <li>Module system</li>
-            <li>Typeclasses</li>
-        </ul><br />
-        <img class="pic_macosx" src="./rawr.jpg" />
+    <h2 class="title"><span>Programming languages that I domain</span></h2>
+    <div class="overview-boxes-container">
+      <ul class="overview-boxes">
+        {% for lang in site.proglang %}
+          <li>
+          <h3>{{ lang.language }}</h3>
+          <p>{{ lang.descr }}</p>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </div>
