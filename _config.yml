@@ -110,16 +110,22 @@ languages:
 translation:
   - name: "phpMyAdmin"
     descr: "A web database manager system for MySQL."
+    site: "http://www.phpmyadmin.net/"
   - name: "Geany"
     descr: "A soft and lightweight IDE."
+    site: "http://www.geany.org"
   - name: "Mozilla Foundation"
     descr: "Translating technical articles about JS."
+    site: "https://mozilla.org"
   - name: "Google"
     descr: "Helping improving Google Translator."
+    site: "https://translate.google.com/"
   - name: "WikiMedia"
     descr: "Translator of the system behind Wikipedia."
+    site: "https://wikimedia.org"
   - name: "WPS Office"
     descr: "A free alternative to Microsoft Office."
+    site: "http://www.wsp.com"
 
 contribution:
   - name: "Livescript"
