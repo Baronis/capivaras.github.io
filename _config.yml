@@ -33,14 +33,54 @@ proglang:
     descr: "Not as good as Livescript, but I also like it."
   - language: Common LISP
     descr: Old? Yes! Lovely? Also! I <span class="heart">♥</span> parenthesis!
+  - language: Elixir
+    descr: "However, I prefer Erlang..."
+  - language: Erlang
+    descr: Built to build concurrent webservers.
   - language: F#
     descr: The better language of CLR that I ever knew!
   - language: Haskell
     descr: A pure functional programming language.
+  - language: Haxe
+    descr: 
+  - language: Hy
+    descr:
   - language: Java
     descr: "No, I'm not proud of this."
+  - language: Javascript
+    descr:
   - language: Livescript
     descr: An hybrid functional language that compiles to Javascript.
+  - language: Lua
+    descr:
+  - language: Matlab
+    descr:
+  - language: Nimrod
+    descr:
+  - language: Paren
+    descr:
+  - language: PHP
+    descr:
+  - language: Pogoscript
+    descr:
+  - language: Purescript
+    descr:
+  - language: Python
+    descr:
+  - language: Ruby
+    descr:
+  - language: Rust
+    descr:
+  - language: Scala
+    descr:
+  - language: Swift
+    descr:
+  - language: Typescript
+    descr:
+  - language: Visual Basic
+    descr:
+  - language: Whip
+    descr:
 
 languages:
   - Portuguese
