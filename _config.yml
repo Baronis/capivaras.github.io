@@ -25,6 +25,12 @@ favorite:
 proglang:
   - language: C
     descr: When I need performance and direct communication with machine.
+  - language: C++
+    descr: The most satanic language created by humans.
+  - language: Clojure
+    descr: "A LISP dialect, but so pure and beautiful."
+  - language: Coffeescript
+    descr: "Not as good as Livescript, but I also like it."
   - language: F#
     descr: The better language of CLR that I ever knew!
   - language: Haskell
