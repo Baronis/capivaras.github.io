@@ -88,7 +88,7 @@ proglang:
   - language: "Rust"
     descr: "When I getting so much segfaults in C, write it in Rust."
   - language: "Scala"
-    descr: "An hybrid functional OOP programming language."
+    descr: "An hybrid functional OO programming language."
   - language: "Shellscript"
     descr: "Everybody knows Shellscript. -.-'"
   - language: "Swift"
