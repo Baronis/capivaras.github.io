@@ -114,8 +114,8 @@ translation:
     descr: "A soft and lightweight IDE."
   - name: "Mozilla Foundation"
     descr: "Translating technical articles about JS."
-  - name: "Google Translator"
-    descr: "Helping improving accuration of its translations."
+  - name: "Google"
+    descr: "Helping improving Google Translator."
   - name: "WikiMedia"
     descr: "Translator of the system behind Wikipedia."
   - name: "WPS Office"
@@ -123,3 +123,7 @@ translation:
 
 contribution:
   - project: ""
+
+projects:
+  - name: "Rawr"
+    descr: "Implementation of static typing, functional programming and pure OO in PHP."

@@ -64,4 +64,17 @@ title:  Haskell Camargo
       </ul>
     </div>
   </div>
+  <div class="highlight-section section">
+    <h2 class="title"><span>And my small projects</span></h2>
+    <div class="overview-boxes-container">
+      <ul class="overview-boxes">
+        {% for project in site.projects %}
+          <li>
+          <h3>{{ project.name }}</h3>
+          <p>{{ project.descr }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 </div>
