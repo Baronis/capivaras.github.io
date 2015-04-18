@@ -127,3 +127,4 @@ contribution:
 projects:
   - name: "Rawr"
     descr: "Implementation of static typing, functional programming and pure OO in PHP."
+    site: "https://haskellcamargo.github.io/"
