@@ -38,4 +38,17 @@ title:  Haskell Camargo
       </ul>
     </div>
   </div>
+  <div class="highlight-section section">
+    <h2 class="title"><span>Ah, and I speak 7 languages!</span></h2>
+    <div class="overview-boxes-container">
+      <ul class="overview-boxes">
+        {% for lang in site.languages %}
+          <li>
+          <h3>{{ lang.language }}</h3>
+          <p>{{ lang.descr }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 </div>
