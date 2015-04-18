@@ -99,7 +99,7 @@ proglang:
     descr: "Argh!"
   - language: "Whip"
     descr: "Join LISP with Haskell, get Whip."
-  - languages: "ZPL"
+  - language: "ZPL"
     descr: "A language that runs on Zebra Printers (WTF!?)"
 
 languages:
