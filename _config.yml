@@ -24,7 +24,7 @@ favorite:
 
 proglang:
   - language: Java
-  - descr: No, I\'m not proud of this.
+    descr: No, I\'m not proud of this.
 
 languages:
   - Portuguese
