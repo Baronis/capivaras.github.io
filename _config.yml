@@ -31,6 +31,8 @@ proglang:
     descr: "A LISP dialect, but so pure and beautiful."
   - language: Coffeescript
     descr: "Not as good as Livescript, but I also like it."
+  - language: Common LISP
+    descr: Old? Yes! Lovely? Also! I <span class="heart">♥</span> parenthesis!
   - language: F#
     descr: The better language of CLR that I ever knew!
   - language: Haskell
