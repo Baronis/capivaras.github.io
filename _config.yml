@@ -1,17 +1,6 @@
 name: Capivaras
 pygments: true
 
-# navigation:
-#   - text: Home
-#     url: /index.html
-#     group: home
-#   - text: Docs
-#     url: http://rawr.readthedocs.org
-#     group: docs
-#   - text: Getting Started
-#     url: /getting-started/404.html
-#     group: community
-
 favorite:
   - language: Haskell
     descr: A pure functional programming language.
@@ -117,3 +106,17 @@ languages:
     descr: "Why? Because turkish grammar is love!"
   - language: "Esperanto"
     descr: "Cause I'm too dumb to learn latin."
+
+translation:
+  - name: "phpMyAdmin"
+    descr: "A web database manager system for MySQL."
+  - name: "Geany"
+    descr: "A soft and lightweight IDE."
+  - name: "Mozilla Foundation"
+    descr: "Translating technical articles about JS."
+  - name: "Google Translator"
+    descr: "Helping improving accuration of its translations."
+  - name: "WikiMedia"
+    descr: "Translator of the system behind Wikipedia."
+  - name: "WPS Office"
+    descr: "A free alternative to Microsoft Office."
