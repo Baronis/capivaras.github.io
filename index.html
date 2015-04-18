@@ -13,6 +13,12 @@ title:  Haskell Camargo
 
 <div id="content-wrapper">
   <div class="highlight-section section">
+    <h2 class="title"><span>I'm ugly, but I'm cool</span></h2>
+    <div align="center">
+      <img src="./ugly.png" class="ugly" />
+    </div>
+  </div>
+  <div class="highlight-section section">
     <h2 class="title"><span>My favorite programming languages</span></h2>
     <div class="overview-boxes-container">
       <ul class="overview-boxes">
@@ -70,7 +76,7 @@ title:  Haskell Camargo
       <ul class="overview-boxes">
         {% for project in site.contribution %}
           <li>
-          <h3>{{ project.name }}</h3>
+          <h3><a href="{{ project.site }}">{{ project.name }}</a></h3>
           <p>{{ project.descr }}</p>
           </li>
         {% endfor %}
