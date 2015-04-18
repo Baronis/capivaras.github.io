@@ -1,22 +1,26 @@
 name: Capivaras
 pygments: true
 
-navigation:
-  - text: Home
-    url: /index.html
-    group: home
-  - text: Docs
-    url: http://rawr.readthedocs.org
-    group: docs
-  - text: Getting Started
-    url: /getting-started/404.html
-    group: community
+# navigation:
+#   - text: Home
+#     url: /index.html
+#     group: home
+#   - text: Docs
+#     url: http://rawr.readthedocs.org
+#     group: docs
+#   - text: Getting Started
+#     url: /getting-started/404.html
+#     group: community
 
 favorite:
   - language: Haskell
-    descr: A pure functional programming language
+    descr: A pure functional programming language.
   - language: Livescript
-    descr: An hybrid functional language that compiles to Javascript
+    descr: An hybrid functional language that compiles to Javascript.
+  - language: F#
+    descr: The better language of CLR that I ever knew!
+  - language: Erlang
+    descr: Built to build concurrent webservers.
 
 languages:
   - Portuguese
