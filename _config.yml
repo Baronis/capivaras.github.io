@@ -11,3 +11,12 @@ navigation:
   - text: Getting Started
     url: /getting-started/404.html
     group: community
+
+languages:
+  - Portuguese
+  - English
+  - Spanish
+  - French
+  - Turkish
+  - Mandarin
+  - Esperanto
