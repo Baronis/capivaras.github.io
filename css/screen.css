@@ -345,15 +345,15 @@ body {
   margin-top: 2em;
 }
 a {
-  color: #EA4C88;
+  color: #0077C0;
   text-decoration: none;
 }
 a:hover {
-  color: #FF6CA8;
+  color: #1297E0;
   text-decoration: underline;
 }
 a:visited {
-  color: #DA3C78;
+  color: #8E44AD;
 }
 code {
   font-family: monospace;
