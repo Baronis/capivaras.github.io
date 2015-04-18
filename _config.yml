@@ -42,9 +42,9 @@ proglang:
   - language: Haskell
     descr: A pure functional programming language.
   - language: Haxe
-    descr: 
+    descr: "A slave language to do it all."
   - language: Hy
-    descr:
+    descr: "A LISP dialect that compiles to Python's AST."
   - language: Java
     descr: "No, I'm not proud of this."
   - language: Javascript
@@ -52,7 +52,7 @@ proglang:
   - language: Livescript
     descr: An hybrid functional language that compiles to Javascript.
   - language: Lua
-    descr:
+    descr: Because I love prototypes and meta-tables.
   - language: Matlab
     descr:
   - language: Nimrod
@@ -60,25 +60,25 @@ proglang:
   - language: Paren
     descr:
   - language: PHP
-    descr:
+    descr: "Bitch, please! Do I need to say something?"
   - language: Pogoscript
     descr:
   - language: Purescript
     descr:
   - language: Python
-    descr:
+    descr: "Not as pure as Ruby, but I love it."
   - language: Ruby
-    descr:
+    descr: "Ah, such language, wow delicious!"
   - language: Rust
-    descr:
+    descr: "When I getting so much segfaults in C, write it in Rust."
   - language: Scala
-    descr:
+    descr: An hybrid functional OOP programming language.
   - language: Swift
-    descr:
+    descr: Apple should allow me to write an open version...
   - language: Typescript
-    descr:
+    descr: "Because Microsoft sucks, but Microsoft Research is love!"
   - language: Visual Basic
-    descr:
+    descr: "Argh!"
   - language: Whip
     descr:
 
