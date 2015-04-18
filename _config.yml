@@ -12,6 +12,12 @@ navigation:
     url: /getting-started/404.html
     group: community
 
+favorite:
+  - language: Haskell
+    descr: A pure functional programming language
+  - language: Livescript
+    descr: An hybrid functional language that compiles to Javascript
+
 languages:
   - Portuguese
   - English
