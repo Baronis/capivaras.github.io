@@ -120,3 +120,6 @@ translation:
     descr: "Translator of the system behind Wikipedia."
   - name: "WPS Office"
     descr: "A free alternative to Microsoft Office."
+
+contribution:
+  - project: ""
