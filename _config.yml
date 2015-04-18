@@ -23,64 +23,64 @@ favorite:
     descr: Built to build concurrent webservers.
 
 proglang:
-  - language: C
-    descr: When I need performance and direct communication with machine.
-  - language: C++
-    descr: The most satanic language created by humans.
-  - language: Clojure
+  - language: "C"
+    descr: "When I need performance and direct communication with machine."
+  - language: "C++"
+    descr: "The most satanic language created by humans."
+  - language: "Clojure"
     descr: "A LISP dialect, but so pure and beautiful."
-  - language: Coffeescript
+  - language: "Coffeescript"
     descr: "Not as good as Livescript, but I also like it."
-  - language: Common LISP
-    descr: Old? Yes! Lovely? Also! I <span class="heart">♥</span> parenthesis!
-  - language: Elixir
+  - language: "Common LISP"
+    descr: "Old? Yes! Lovely? Also! I <span class='heart'>♥</span> parenthesis!"
+  - language: "Elixir"
     descr: "However, I prefer Erlang..."
-  - language: Erlang
-    descr: Built to build concurrent webservers.
-  - language: F#
-    descr: The better language of CLR that I ever knew!
-  - language: Haskell
-    descr: A pure functional programming language.
-  - language: Haxe
-    descr: "A slave language to do it all."
-  - language: Hy
+  - language: "Erlang"
+    descr: "Built to build concurrent webservers."
+  - language: "F#"
+    descr: "The better language of CLR that I ever knew!"
+  - language: "Haskell"
+    descr: "A pure functional programming language."
+  - language: "Haxe"
+    descr: "A slave language to get shit done."
+  - language: "Hy"
     descr: "A LISP dialect that compiles to Python's AST."
-  - language: Java
+  - language: "Java"
     descr: "No, I'm not proud of this."
-  - language: Javascript
-    descr:
-  - language: Livescript
-    descr: An hybrid functional language that compiles to Javascript.
-  - language: Lua
-    descr: Because I love prototypes and meta-tables.
-  - language: Matlab
-    descr:
-  - language: Nimrod
-    descr:
-  - language: Paren
-    descr:
-  - language: PHP
+  - language: "Javascript"
+    descr: "Aka the Internet ASM."
+  - language: "Livescript"
+    descr: "An hybrid functional language that compiles to Javascript."
+  - language: "Lua"
+    descr: "Because I love prototypes and meta-tables."
+  - language: "Matlab"
+    descr: ""
+  - language: "Nimrod"
+    descr: ""
+  - language: "Paren"
+    descr: ""
+  - language: "PHP"
     descr: "Bitch, please! Do I need to say something?"
-  - language: Pogoscript
-    descr:
-  - language: Purescript
-    descr:
-  - language: Python
+  - language: "Pogoscript"
+    descr: ""
+  - language: "Purescript"
+    descr: ""
+  - language: "Python"
     descr: "Not as pure as Ruby, but I love it."
-  - language: Ruby
+  - language: "Ruby"
     descr: "Ah, such language, wow delicious!"
-  - language: Rust
+  - language: "Rust"
     descr: "When I getting so much segfaults in C, write it in Rust."
-  - language: Scala
-    descr: An hybrid functional OOP programming language.
-  - language: Swift
-    descr: Apple should allow me to write an open version...
-  - language: Typescript
+  - language: "Scala"
+    descr: "An hybrid functional OOP programming language."
+  - language: "Swift"
+    descr: "Apple should allow me to write an open version..."
+  - language: "Typescript"
     descr: "Because Microsoft sucks, but Microsoft Research is love!"
-  - language: Visual Basic
+  - language: "Visual Basic"
     descr: "Argh!"
-  - language: Whip
-    descr:
+  - language: "Whip"
+    descr: ""
 
 languages:
   - Portuguese
