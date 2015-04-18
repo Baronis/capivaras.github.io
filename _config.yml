@@ -58,13 +58,13 @@ proglang:
   - language: "Nimrod"
     descr: ""
   - language: "Paren"
-    descr: ""
+    descr: "(Did (you (call (for (parenthesis ?)))))"
   - language: "PHP"
     descr: "Bitch, please! Do I need to say something?"
   - language: "Pogoscript"
-    descr: ""
+    descr: "When I need to write a compile-to-js DSL."
   - language: "Purescript"
-    descr: ""
+    descr: "Such purism, wow language!"
   - language: "Python"
     descr: "Not as pure as Ruby, but I love it."
   - language: "Ruby"
@@ -80,7 +80,7 @@ proglang:
   - language: "Visual Basic"
     descr: "Argh!"
   - language: "Whip"
-    descr: ""
+    descr: "Join LISP with Haskell, get Whip."
 
 languages:
   - Portuguese
