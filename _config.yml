@@ -122,7 +122,12 @@ translation:
     descr: "A free alternative to Microsoft Office."
 
 contribution:
-  - project: ""
+  - name: "Livescript"
+    descr: "An hybrid language that compiles to Javascript."
+  - name: "Typescript"
+    descr: "A static typed language that compiles to Javascript."
+  - name: "HS Language PHP"
+    descr: "Implementation of a PHP interpreter in Haskell."
 
 projects:
   - name: "Rawr"
